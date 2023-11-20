@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/greyson
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform:  org.hibernate.dialect.PostgreSQLDialect
+
+application:
+  security:
+    jwt:
+      secret-key: 8O9T06j0VGY0aRHEGQQuapuBc7uG66S7Zvb6syyUGzk
+      access: 86400000 # 1 day
+      refresh: 8640000000 # 100 days
+
+#springdoc.default-produces-media-type= application/json
+#springdoc.swagger-ui.path= "/swagger-ui.html"
+#springdoc.swagger-ui.supported-submit-methods= [ "get", "put", "post", "delete" ]
+#springdoc.swagger-ui.doc-expansion= none
+#springdoc.swagger-ui.tags-sorter= alpha
+#springdoc.swagger-ui.validator-url= none
+#springdoc.swagger-ui.disable-swagger-default-url= false

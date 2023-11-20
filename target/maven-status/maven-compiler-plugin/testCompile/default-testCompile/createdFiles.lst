@@ -1,0 +1,8 @@
+eu\greyson\bank\general\service\AuthServiceTest.class
+eu\greyson\bank\general\service\AccountServiceTest.class
+eu\greyson\bank\general\service\UserServiceTest.class
+eu\greyson\bank\general\service\TransactionServiceTest.class
+eu\greyson\bank\general\rest\auth\AuthControllerImplTest.class
+eu\greyson\bank\general\rest\account\AccountControllerImplTest.class
+eu\greyson\bank\general\rest\user\UserControllerImplTest.class
+eu\greyson\bank\general\service\CardServiceTest.class

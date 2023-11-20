@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: eu.greyson.bank.general.rest.account.AccountControllerImplTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.483 s - in eu.greyson.bank.general.rest.account.AccountControllerImplTest
